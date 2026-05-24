@@ -2,11 +2,12 @@
   "spider": "https://ghproxy.com/https://raw.githubusercontent.com/CatVodTVOfficial/CatVodTVJarLoader/main/jar/custom_spider.jar",
 
   "sites": [
+
     {
       "key": "hsck",
       "name": "HS仓库",
       "type": 1,
-      "api": "https://hszyckapi.vip/api.php/provide/vod/at/json",
+      "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -22,10 +23,45 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1
+    },
+
+    {
+      "key": "lzi",
+      "name": "量子资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+
+    {
+      "key": "ff",
+      "name": "非凡资源",
+      "type": 1,
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+
+    {
+      "key": "semao",
+      "name": "色猫资源",
+      "type": 1,
+      "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
     }
+
   ],
 
   "parses": [
+
     {
       "name": "线路1",
       "type": 1,
@@ -43,8 +79,16 @@
       "type": 1,
       "url": "https://jx.aidouer.net/?url="
     }
+
   ],
 
-  "lives": [],
+  "lives": [
+    {
+      "name": "电视直播",
+      "type": 0,
+      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt"
+    }
+  ],
+
   "flags": []
 }

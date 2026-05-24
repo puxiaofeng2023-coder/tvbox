@@ -1,34 +1,10 @@
 {
-  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/CatVodTVOfficial/CatVodTVJarLoader/main/jar/custom_spider.jar",
-  "sites": [
-    {
-      "key": "hsck",
-      "name": "HS仓库",
-      "type": 1,
-      "api": "https://hszyckapi.vip/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "heiliao",
-      "name": "黑料资源",
-      "type": 1,
-      "api": "https://www.heiliaozyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    }
-  ],
-  "parses": [
-    {
-      "name": "Json解析",
-      "type": 1,
-      "url": "https://jx.jsonplayer.com/player/?url="
-    }
-  ],
-  "lives": [],
-  "flags": []
+  "key": "heiliao",
+  "name": "黑料资源",
+  "type": 1,
+  "api": "https://www.heiliaozyapi.com/api.php/provide/vod/at/json",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "changeable": 1
 }

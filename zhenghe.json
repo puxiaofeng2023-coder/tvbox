@@ -1,0 +1,54 @@
+{
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/CatVodTVOfficial/CatVodTVJarLoader/main/jar/custom_spider.jar",
+
+  "sites": [
+    {
+      "key": "ff",
+      "name": "非凡资源",
+      "type": 1,
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "bf",
+      "name": "暴风资源",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hl",
+      "name": "黑料资源",
+      "type": 1,
+      "api": "https://www.heiliaozyapi.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+
+  "parses": [
+    {
+      "name": "线路1",
+      "type": 1,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    },
+    {
+      "name": "线路2",
+      "type": 1,
+      "url": "https://jx.playerjy.com/?url="
+    },
+    {
+      "name": "线路3",
+      "type": 1,
+      "url": "https://jx.aidouer.net/?url="
+    }
+  ],
+
+  "lives": [],
+  "flags": []
+}
